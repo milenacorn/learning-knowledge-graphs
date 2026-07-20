@@ -48,12 +48,10 @@ nav:
       - Graph Quality Analysis: learning-graph/quality-metrics.md
       - Concept Taxonomy: learning-graph/concept-taxonomy.md
       - Taxonomy Distribution Report: learning-graph/taxonomy-distribution.md
-      # - Concept Taxonomy: learning-graph/concept-taxonomy.md
-      # - Graph Quality Analysis: learning-graph/quality-metrics.md
-      # - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
 
   - MicroSims:
       - List of MicroSims: sims/index.md
+      - Learning Graph Viewer: sims/graph-viewer/index.md
 
   - License: license.md
   - Contact: contact.md
