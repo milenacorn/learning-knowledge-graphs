@@ -123,7 +123,7 @@ directly connected by a single edge — no intermediate nodes involved.
 
 #### Diagram: Graph Anatomy Explorer
 
-<iframe src="../../sims/graph-anatomy-explorer/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/graph-anatomy-explorer/main.html" width="100%" height="502px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Graph Anatomy Explorer</summary>
@@ -131,7 +131,7 @@ Type: graph-model
 
 **sim-id:** graph-anatomy-explorer<br/>
 **Library:** vis-network<br/>
-**Status:** Specified
+**Status:** Deployed
 
 Bloom Taxonomy Level: Remember / Understand (L1/L2)<br/>
 Bloom Taxonomy Verb: identify, label, describe
@@ -145,13 +145,14 @@ vocabulary using a small, easy-to-follow example graph before any
 domain-specific (legal or scientific) graphs are introduced later in the
 book.
 
-Node types to show (6 nodes total):
+Node types to show (4 nodes total):
 
 1. "Ada" (person, circle, light blue)
 2. "Ben" (person, circle, light blue)
 3. "Chinook Labs" (organization, square, orange)
 4. "Report 12" (document, rounded rectangle, gray)
-5. "Ben" and "Ada" should be visually adjacent to each other and to "Chinook Labs"
+
+Layout note: "Ben" and "Ada" should be visually adjacent to each other and to "Chinook Labs".
 
 Edges to show (5 edges total):
 

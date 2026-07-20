@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "title": "Graph Anatomy Explorer",
+    "description": "A small 4-node example graph used to teach node, edge, directed/undirected edge, and adjacency vocabulary.",
+    "version": "1.0"
+  },
+  "nodes": [
+    { "id": 1, "label": "Ada", "type": "person", "x": -160, "y": -110 },
+    { "id": 2, "label": "Ben", "type": "person", "x": -160, "y": 110 },
+    { "id": 3, "label": "Chinook Labs", "type": "organization", "x": 40, "y": 0 },
+    { "id": 4, "label": "Report 12", "type": "document", "x": 230, "y": -90 }
+  ],
+  "edges": [
+    { "id": 1, "from": 1, "to": 2, "predicate": "KNOWS", "directed": false },
+    { "id": 2, "from": 1, "to": 3, "predicate": "WORKS_AT", "directed": true },
+    { "id": 3, "from": 2, "to": 3, "predicate": "WORKS_AT", "directed": true },
+    { "id": 4, "from": 1, "to": 4, "predicate": "AUTHORED", "directed": true },
+    { "id": 5, "from": 3, "to": 4, "predicate": "PUBLISHED", "directed": true }
+  ]
+}

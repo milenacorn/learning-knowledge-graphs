@@ -1,0 +1,23 @@
+{
+  "title": "Graph Anatomy Explorer",
+  "description": "An interactive vis-network diagram of a small 4-node example graph, used to teach node, edge, directed/undirected edge, and adjacency vocabulary.",
+  "creator": "Milena Higgins",
+  "date": "2026-07-19",
+  "version": "1.0",
+  "format": "MicroSim HTML/JavaScript",
+  "rights": "CC BY-NC-SA 4.0",
+  "subject": ["Knowledge Graphs", "Graph Theory"],
+  "keywords": ["node", "edge", "directed edge", "undirected edge", "adjacency", "graph", "vertex"],
+  "language": "en",
+  "audience": "Legal professionals and technical/scientific professionals",
+  "educationalLevel": "Professional Development",
+  "interactivityType": "active",
+  "learningResourceType": "simulation",
+  "technicalRequirements": "Modern web browser with JavaScript enabled",
+  "dependencies": [
+    "vis-network.js"
+  ],
+  "concepts": ["Node", "Edge", "Directed Edge", "Undirected Edge", "Adjacency"],
+  "nodeCount": "4",
+  "edgeCount": "5"
+}
