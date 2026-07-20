@@ -1,0 +1,14 @@
+{
+  "FOUND": "Graph Foundations",
+  "TAXO": "Taxonomies and Ontologies",
+  "MODEL": "Graph Data Models and Schema",
+  "STD": "Semantic Web Standards",
+  "BUILD": "Building Knowledge Graphs",
+  "QUERY": "Querying Knowledge Graphs",
+  "ALGO": "Graph Algorithms and Analytics",
+  "GML": "Knowledge Graphs and Machine Learning",
+  "LLM": "Knowledge Graphs and LLMs",
+  "CASE": "Cross-Industry Case Studies",
+  "LEGAL": "Legal and Enterprise Knowledge Graphs",
+  "GOV": "Governance and Maintenance"
+}

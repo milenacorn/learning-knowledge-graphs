@@ -1,0 +1,14 @@
+{
+  "FOUND": { "range": [1, 26], "keywords": [], "exclude": [] },
+  "TAXO": { "range": [27, 42], "keywords": [], "exclude": [] },
+  "MODEL": { "range": [43, 68], "keywords": [], "exclude": [] },
+  "STD": { "range": [69, 88], "keywords": [], "exclude": [] },
+  "BUILD": { "range": [89, 104], "keywords": [], "exclude": [] },
+  "QUERY": { "range": [105, 120], "keywords": [], "exclude": [] },
+  "ALGO": { "range": [121, 136], "keywords": [], "exclude": [] },
+  "GML": { "range": [137, 152], "keywords": [], "exclude": [] },
+  "LLM": { "range": [153, 166], "keywords": [], "exclude": [] },
+  "CASE": { "range": [167, 178], "keywords": [], "exclude": [] },
+  "LEGAL": { "range": [179, 190], "keywords": [], "exclude": [] },
+  "GOV": { "range": [191, 200], "keywords": [], "exclude": [] }
+}

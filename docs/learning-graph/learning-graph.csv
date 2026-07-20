@@ -1,0 +1,201 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Node,,FOUND
+2,Edge,1,FOUND
+3,Directed Edge,2,FOUND
+4,Undirected Edge,2,FOUND
+5,Graph,1|2,FOUND
+6,Vertex,1,FOUND
+7,Triple,2,FOUND
+8,Subject,7,FOUND
+9,Predicate,7,FOUND
+10,Object,7,FOUND
+11,Entity,1,FOUND
+12,Attribute,11,FOUND
+13,Relationship,2|11,FOUND
+14,Adjacency,5,FOUND
+15,Graph Traversal,5|6|14,FOUND
+16,Relational Table,,FOUND
+17,Foreign Key,16,FOUND
+18,Document Store,,FOUND
+19,Graph Database,5|16|18,FOUND
+20,Schema-On-Read,18,FOUND
+21,Schema-On-Write,16,FOUND
+22,Multigraph,5,FOUND
+23,Hypergraph,5,FOUND
+24,Weighted Graph,5,FOUND
+25,Cyclic Graph,5,FOUND
+26,Acyclic Graph,25,FOUND
+27,Taxonomy,11,TAXO
+28,Controlled Vocabulary,27,TAXO
+29,Thesaurus,28,TAXO
+30,Synonym Ring,29,TAXO
+31,Broader Term,29,TAXO
+32,Narrower Term,31,TAXO
+33,Related Term,29,TAXO
+34,Facet,27,TAXO
+35,Polyhierarchy,27|34,TAXO
+36,Ontology,27|29,TAXO
+37,Class Hierarchy,35|36,TAXO
+38,Is-A Relationship,37,TAXO
+39,Part-Of Relationship,37,TAXO
+40,Upper Ontology,36,TAXO
+41,Domain Ontology,36|40,TAXO
+42,Concept Scheme,27|36,TAXO
+43,RDF Triple,7|8|9|10,MODEL
+44,Property Graph,4|5|11,MODEL
+45,Labeled Property Graph,44,MODEL
+46,Blank Node,43,MODEL
+47,Named Graph,43,MODEL
+48,Reification,43|46,MODEL
+49,Quad Store,47,MODEL
+50,Triple Store,43,MODEL
+51,Graph Model Tradeoffs,22|23|24|43|45,MODEL
+52,Directed Acyclic Graph,3|26,MODEL
+53,Knowledge Graph,36|41|43|44|49|50|52,MODEL
+54,Class,37,MODEL
+55,Property,12|54,MODEL
+56,Datatype Property,55,MODEL
+57,Object Property,55,MODEL
+58,Cardinality,13,MODEL
+59,One-To-One Relation,58,MODEL
+60,One-To-Many Relation,58,MODEL
+61,Many-To-Many Relation,58,MODEL
+62,Domain And Range,55,MODEL
+63,Schema Design,39|51|54|55|59|60|61|62,MODEL
+64,Data Model,20|21|63,MODEL
+65,Inheritance,38|54,MODEL
+66,Constraint,58,MODEL
+67,Class Restriction,54|66,MODEL
+68,Entity Type,11|54,MODEL
+69,RDF,43,STD
+70,RDFS,37|69,STD
+71,OWL,36|70,STD
+72,SKOS,27|30|31|32|33|42|69,STD
+73,SPARQL,69,STD
+74,URI,69,STD
+75,IRI,74,STD
+76,Namespace,74,STD
+77,Turtle Syntax,69|76,STD
+78,JSON-LD,69|75|76,STD
+79,N-Triples,69,STD
+80,XML Schema Datatype,56,STD
+81,OWL Class,54|65|71,STD
+82,OWL Property,55|57|71,STD
+83,Equivalent Class,81,STD
+84,Disjoint Classes,81,STD
+85,Transitive Property,82,STD
+86,Symmetric Property,82,STD
+87,Inverse Property,82,STD
+88,Cardinality Restriction,58|67|82,STD
+89,Data Source,53,BUILD
+90,ETL Pipeline,89,BUILD
+91,Data Ingestion,90,BUILD
+92,Entity Extraction,11|68|91,BUILD
+93,Named Entity Recognition,92,BUILD
+94,Relation Extraction,13|93,BUILD
+95,Entity Resolution,92,BUILD
+96,Deduplication,95,BUILD
+97,Record Linkage,17|95,BUILD
+98,Data Cleaning,91,BUILD
+99,Schema Mapping,63|90,BUILD
+100,Data Transformation,90,BUILD
+101,Knowledge Extraction,92|94,BUILD
+102,Text Mining,93,BUILD
+103,Information Extraction,101,BUILD
+104,Data Enrichment,95|100,BUILD
+105,SPARQL Query,73,QUERY
+106,SELECT Query,105,QUERY
+107,CONSTRUCT Query,105,QUERY
+108,ASK Query,105,QUERY
+109,Triple Pattern,43|105,QUERY
+110,SPARQL Endpoint,105,QUERY
+111,Cypher Query,19|45,QUERY
+112,MATCH Clause,111,QUERY
+113,Pattern Matching,109|112,QUERY
+114,Path Query,15|113,QUERY
+115,Python Graph Client,105|111,QUERY
+116,RDFLib,69|115,QUERY
+117,Neo4j Driver,111|115,QUERY
+118,Query Optimization,113,QUERY
+119,Federated Query,110,QUERY
+120,Graph Query Language,105|111,QUERY
+121,Centrality,5|15,ALGO
+122,Degree Centrality,121,ALGO
+123,Betweenness Centrality,15|121,ALGO
+124,Closeness Centrality,121,ALGO
+125,Eigenvector Centrality,121,ALGO
+126,PageRank,125,ALGO
+127,Community Detection,121,ALGO
+128,Clustering Coefficient,127,ALGO
+129,Shortest Path,15,ALGO
+130,Breadth-First Search,129,ALGO
+131,Depth-First Search,15,ALGO
+132,Connected Component,131,ALGO
+133,Graph Density,5,ALGO
+134,Subgraph,5,ALGO
+135,Graph Partitioning,127|134,ALGO
+136,Link Analysis,121|126,ALGO
+137,Knowledge Graph Embedding,53,GML
+138,Node Embedding,137,GML
+139,TransE Model,43|137,GML
+140,Graph Neural Network,138,GML
+141,Message Passing,140,GML
+142,Link Prediction,137,GML
+143,Node Classification,140,GML
+144,Graph Convolution,141,GML
+145,Random Walk,15,GML
+146,Node2Vec,138|145,GML
+147,Knowledge Graph Completion,142,GML
+148,Negative Sampling,137,GML
+149,Embedding Space,138,GML
+150,Similarity Score,149,GML
+151,Triple Classification,139,GML
+152,Graph Attention Network,144,GML
+153,Large Language Model,,LLM
+154,Retrieval-Augmented Generation,153,LLM
+155,GraphRAG,53|154,LLM
+156,LLM Grounding,155,LLM
+157,Hallucination,153,LLM
+158,Prompt Engineering,153,LLM
+159,LLM-Assisted Extraction,92|158,LLM
+160,Vector Database,149,LLM
+161,Semantic Search,160,LLM
+162,Hybrid Retrieval,105|161,LLM
+163,Knowledge Injection,156,LLM
+164,Context Window,153,LLM
+165,Fact Verification,156|157,LLM
+166,Chunking Strategy,154,LLM
+167,Search Knowledge Graph,53,CASE
+168,Biomedical Knowledge Graph,53,CASE
+169,Enterprise Knowledge Graph,53,CASE
+170,Recommendation System,53|142,CASE
+171,Product Graph,169|170,CASE
+172,Social Graph,53,CASE
+173,Citation Network,53|121,CASE
+174,Fraud Detection Graph,127|169,CASE
+175,Supply Chain Graph,169,CASE
+176,Google Knowledge Graph,167,CASE
+177,Graph Visualization,5|15,CASE
+178,Financial Knowledge Graph,169|174,CASE
+179,Matter Graph,169,LEGAL
+180,Legal Document Graph,92|179,LEGAL
+181,Expertise Location,179,LEGAL
+182,Conflicts Checking,95|179,LEGAL
+183,Legal Entity Resolution,95|182,LEGAL
+184,Case Law Graph,173|179,LEGAL
+185,Contract Graph,55|179,LEGAL
+186,Client Relationship Graph,13|179,LEGAL
+187,Legal Taxonomy,27|179,LEGAL
+188,Precedent Relationship,184,LEGAL
+189,Regulatory Graph,169|187,LEGAL
+190,Outside Counsel Graph,181|186,LEGAL
+191,Data Governance,53,GOV
+192,Data Provenance,48|191,GOV
+193,Data Quality,98|191,GOV
+194,Graph Versioning,191,GOV
+195,Schema Evolution,63|194,GOV
+196,Data Lineage,192,GOV
+197,Access Control,191,GOV
+198,Change Management,194,GOV
+199,Audit Trail,192|197,GOV
+200,Update Cadence,193|198,GOV
