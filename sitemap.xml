@@ -2,34 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://milenacorn.github.io/learning-knowledge-graphs/</loc>
-         <lastmod>2026-07-17</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://milenacorn.github.io/learning-knowledge-graphs/about/</loc>
-         <lastmod>2026-07-17</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://milenacorn.github.io/learning-knowledge-graphs/contact/</loc>
-         <lastmod>2026-07-17</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://milenacorn.github.io/learning-knowledge-graphs/course-description/</loc>
-         <lastmod>2026-07-17</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://milenacorn.github.io/learning-knowledge-graphs/license/</loc>
-         <lastmod>2026-07-17</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://milenacorn.github.io/learning-knowledge-graphs/chapters/</loc>
-         <lastmod>2026-07-17</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://milenacorn.github.io/learning-knowledge-graphs/learning-graph/</loc>
-         <lastmod>2026-07-17</lastmod>
+         <lastmod>2026-07-20</lastmod>
+    </url>
+    <url>
+         <loc>https://milenacorn.github.io/learning-knowledge-graphs/learning-graph/concept-list/</loc>
+         <lastmod>2026-07-20</lastmod>
+    </url>
+    <url>
+         <loc>https://milenacorn.github.io/learning-knowledge-graphs/learning-graph/concept-taxonomy/</loc>
+         <lastmod>2026-07-20</lastmod>
+    </url>
+    <url>
+         <loc>https://milenacorn.github.io/learning-knowledge-graphs/learning-graph/course-description-assessment/</loc>
+         <lastmod>2026-07-20</lastmod>
+    </url>
+    <url>
+         <loc>https://milenacorn.github.io/learning-knowledge-graphs/learning-graph/quality-metrics/</loc>
+         <lastmod>2026-07-20</lastmod>
+    </url>
+    <url>
+         <loc>https://milenacorn.github.io/learning-knowledge-graphs/learning-graph/taxonomy-distribution/</loc>
+         <lastmod>2026-07-20</lastmod>
     </url>
     <url>
          <loc>https://milenacorn.github.io/learning-knowledge-graphs/sims/</loc>
-         <lastmod>2026-07-17</lastmod>
+         <lastmod>2026-07-20</lastmod>
     </url>
 </urlset>

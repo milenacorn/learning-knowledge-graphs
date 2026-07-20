@@ -1,0 +1,10 @@
+{
+  "title": "Learning Knowledge Graphs",
+  "description": "An interactive intelligent textbook teaching learning knowledge graphs: how to model, build, and use concept-dependency graphs for education, written for tech-forward legal professionals and scientists/engineers/developers alike.",
+  "creator": "Milena Higgins",
+  "date": "2026-07-18",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}
