@@ -199,3 +199,21 @@ ConceptID,ConceptLabel,Dependencies,TaxonomyID
 198,Change Management,194,GOV
 199,Audit Trail,192|197,GOV
 200,Update Cadence,193|198,GOV
+201,Litigation Party,179,LEGAL
+202,Court Filing,180,LEGAL
+203,Docket Entry,202,LEGAL
+204,Litigation Timeline,203,LEGAL
+205,Court Hierarchy,187,LEGAL
+206,Jurisdiction Graph,205,LEGAL
+207,Holding Relationship,184|188,LEGAL
+208,Ethical Wall,182,LEGAL
+209,Litigation Hold,180|201,LEGAL
+210,Document Review Graph,92|209,LEGAL
+211,Privilege Log,210,LEGAL
+212,Clause Library,185,LEGAL
+213,Obligation Tracking,212,LEGAL
+214,Patent Citation Graph,173|179,LEGAL
+215,Prior Art Network,214,LEGAL
+216,IP Portfolio Graph,186|214,LEGAL
+217,SALI Taxonomy,187,LEGAL
+218,FOLIO Ontology,71|217,LEGAL

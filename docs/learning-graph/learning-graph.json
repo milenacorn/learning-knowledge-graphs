@@ -1099,6 +1099,96 @@
       "id": 200,
       "label": "Update Cadence",
       "group": "GOV"
+    },
+    {
+      "id": 201,
+      "label": "Litigation Party",
+      "group": "LEGAL"
+    },
+    {
+      "id": 202,
+      "label": "Court Filing",
+      "group": "LEGAL"
+    },
+    {
+      "id": 203,
+      "label": "Docket Entry",
+      "group": "LEGAL"
+    },
+    {
+      "id": 204,
+      "label": "Litigation Timeline",
+      "group": "LEGAL"
+    },
+    {
+      "id": 205,
+      "label": "Court Hierarchy",
+      "group": "LEGAL"
+    },
+    {
+      "id": 206,
+      "label": "Jurisdiction Graph",
+      "group": "LEGAL"
+    },
+    {
+      "id": 207,
+      "label": "Holding Relationship",
+      "group": "LEGAL"
+    },
+    {
+      "id": 208,
+      "label": "Ethical Wall",
+      "group": "LEGAL"
+    },
+    {
+      "id": 209,
+      "label": "Litigation Hold",
+      "group": "LEGAL"
+    },
+    {
+      "id": 210,
+      "label": "Document Review Graph",
+      "group": "LEGAL"
+    },
+    {
+      "id": 211,
+      "label": "Privilege Log",
+      "group": "LEGAL"
+    },
+    {
+      "id": 212,
+      "label": "Clause Library",
+      "group": "LEGAL"
+    },
+    {
+      "id": 213,
+      "label": "Obligation Tracking",
+      "group": "LEGAL"
+    },
+    {
+      "id": 214,
+      "label": "Patent Citation Graph",
+      "group": "LEGAL"
+    },
+    {
+      "id": 215,
+      "label": "Prior Art Network",
+      "group": "LEGAL"
+    },
+    {
+      "id": 216,
+      "label": "IP Portfolio Graph",
+      "group": "LEGAL"
+    },
+    {
+      "id": 217,
+      "label": "SALI Taxonomy",
+      "group": "LEGAL"
+    },
+    {
+      "id": 218,
+      "label": "FOLIO Ontology",
+      "group": "LEGAL"
     }
   ],
   "edges": [
@@ -2297,6 +2387,102 @@
     {
       "from": 200,
       "to": 198
+    },
+    {
+      "from": 201,
+      "to": 179
+    },
+    {
+      "from": 202,
+      "to": 180
+    },
+    {
+      "from": 203,
+      "to": 202
+    },
+    {
+      "from": 204,
+      "to": 203
+    },
+    {
+      "from": 205,
+      "to": 187
+    },
+    {
+      "from": 206,
+      "to": 205
+    },
+    {
+      "from": 207,
+      "to": 184
+    },
+    {
+      "from": 207,
+      "to": 188
+    },
+    {
+      "from": 208,
+      "to": 182
+    },
+    {
+      "from": 209,
+      "to": 180
+    },
+    {
+      "from": 209,
+      "to": 201
+    },
+    {
+      "from": 210,
+      "to": 92
+    },
+    {
+      "from": 210,
+      "to": 209
+    },
+    {
+      "from": 211,
+      "to": 210
+    },
+    {
+      "from": 212,
+      "to": 185
+    },
+    {
+      "from": 213,
+      "to": 212
+    },
+    {
+      "from": 214,
+      "to": 173
+    },
+    {
+      "from": 214,
+      "to": 179
+    },
+    {
+      "from": 215,
+      "to": 214
+    },
+    {
+      "from": 216,
+      "to": 186
+    },
+    {
+      "from": 216,
+      "to": 214
+    },
+    {
+      "from": 217,
+      "to": 187
+    },
+    {
+      "from": 218,
+      "to": 71
+    },
+    {
+      "from": 218,
+      "to": 217
     }
   ]
 }

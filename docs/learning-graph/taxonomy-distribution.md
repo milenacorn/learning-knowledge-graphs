@@ -2,42 +2,42 @@
 
 ## Overview
 
-- **Total Concepts**: 200
+- **Total Concepts**: 218
 - **Number of Taxonomies**: 12
-- **Average Concepts per Taxonomy**: 16.7
+- **Average Concepts per Taxonomy**: 18.2
 
 ## Distribution Summary
 
 | Category | TaxonomyID | Count | Percentage | Status |
 |----------|-----------|-------|------------|--------|
-| Graph Foundations | FOUND | 26 | 13.0% | ✅ |
-| Graph Data Models and Schema | MODEL | 26 | 13.0% | ✅ |
-| Semantic Web Standards | STD | 20 | 10.0% | ✅ |
-| Taxonomies and Ontologies | TAXO | 16 | 8.0% | ✅ |
-| Building Knowledge Graphs | BUILD | 16 | 8.0% | ✅ |
-| Querying Knowledge Graphs | QUERY | 16 | 8.0% | ✅ |
-| Graph Algorithms and Analytics | ALGO | 16 | 8.0% | ✅ |
-| Knowledge Graphs and Machine Learning | GML | 16 | 8.0% | ✅ |
-| Knowledge Graphs and LLMs | LLM | 14 | 7.0% | ✅ |
-| Cross-Industry Case Studies | CASE | 12 | 6.0% | ✅ |
-| Legal and Enterprise Knowledge Graphs | LEGAL | 12 | 6.0% | ✅ |
-| Governance and Maintenance | GOV | 10 | 5.0% | ✅ |
+| Legal and Enterprise Knowledge Graphs | LEGAL | 30 | 13.8% | ✅ |
+| Graph Foundations | FOUND | 26 | 11.9% | ✅ |
+| Graph Data Models and Schema | MODEL | 26 | 11.9% | ✅ |
+| Semantic Web Standards | STD | 20 | 9.2% | ✅ |
+| Taxonomies and Ontologies | TAXO | 16 | 7.3% | ✅ |
+| Building Knowledge Graphs | BUILD | 16 | 7.3% | ✅ |
+| Querying Knowledge Graphs | QUERY | 16 | 7.3% | ✅ |
+| Graph Algorithms and Analytics | ALGO | 16 | 7.3% | ✅ |
+| Knowledge Graphs and Machine Learning | GML | 16 | 7.3% | ✅ |
+| Knowledge Graphs and LLMs | LLM | 14 | 6.4% | ✅ |
+| Cross-Industry Case Studies | CASE | 12 | 5.5% | ✅ |
+| Governance and Maintenance | GOV | 10 | 4.6% | ✅ |
 
 ## Visual Distribution
 
 ```
-Graph Foundations         ██████  26 ( 13.0%)
-Graph Data Models and Sch ██████  26 ( 13.0%)
-Semantic Web Standards    █████  20 ( 10.0%)
-Taxonomies and Ontologies ████  16 (  8.0%)
-Building Knowledge Graphs ████  16 (  8.0%)
-Querying Knowledge Graphs ████  16 (  8.0%)
-Graph Algorithms and Anal ████  16 (  8.0%)
-Knowledge Graphs and Mach ████  16 (  8.0%)
-Knowledge Graphs and LLMs ███  14 (  7.0%)
-Cross-Industry Case Studi ███  12 (  6.0%)
-Legal and Enterprise Know ███  12 (  6.0%)
-Governance and Maintenanc ██  10 (  5.0%)
+Legal and Enterprise Know ██████  30 ( 13.8%)
+Graph Foundations         █████  26 ( 11.9%)
+Graph Data Models and Sch █████  26 ( 11.9%)
+Semantic Web Standards    ████  20 (  9.2%)
+Taxonomies and Ontologies ███  16 (  7.3%)
+Building Knowledge Graphs ███  16 (  7.3%)
+Querying Knowledge Graphs ███  16 (  7.3%)
+Graph Algorithms and Anal ███  16 (  7.3%)
+Knowledge Graphs and Mach ███  16 (  7.3%)
+Knowledge Graphs and LLMs ███  14 (  6.4%)
+Cross-Industry Case Studi ██  12 (  5.5%)
+Governance and Maintenanc ██  10 (  4.6%)
 ```
 
 ## Balance Analysis
@@ -48,9 +48,32 @@ All categories are under the 30% threshold. Good balance!
 
 ## Category Details
 
+### Legal and Enterprise Knowledge Graphs (LEGAL)
+
+**Count**: 30 concepts (13.8%)
+
+**Concepts**:
+
+- 179. Matter Graph
+- 180. Legal Document Graph
+- 181. Expertise Location
+- 182. Conflicts Checking
+- 183. Legal Entity Resolution
+- 184. Case Law Graph
+- 185. Contract Graph
+- 186. Client Relationship Graph
+- 187. Legal Taxonomy
+- 188. Precedent Relationship
+- 189. Regulatory Graph
+- 190. Outside Counsel Graph
+- 201. Litigation Party
+- 202. Court Filing
+- 203. Docket Entry
+- *...and 15 more*
+
 ### Graph Foundations (FOUND)
 
-**Count**: 26 concepts (13.0%)
+**Count**: 26 concepts (11.9%)
 
 **Concepts**:
 
@@ -73,7 +96,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Graph Data Models and Schema (MODEL)
 
-**Count**: 26 concepts (13.0%)
+**Count**: 26 concepts (11.9%)
 
 **Concepts**:
 
@@ -96,7 +119,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Semantic Web Standards (STD)
 
-**Count**: 20 concepts (10.0%)
+**Count**: 20 concepts (9.2%)
 
 **Concepts**:
 
@@ -119,7 +142,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Taxonomies and Ontologies (TAXO)
 
-**Count**: 16 concepts (8.0%)
+**Count**: 16 concepts (7.3%)
 
 **Concepts**:
 
@@ -142,7 +165,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Building Knowledge Graphs (BUILD)
 
-**Count**: 16 concepts (8.0%)
+**Count**: 16 concepts (7.3%)
 
 **Concepts**:
 
@@ -165,7 +188,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Querying Knowledge Graphs (QUERY)
 
-**Count**: 16 concepts (8.0%)
+**Count**: 16 concepts (7.3%)
 
 **Concepts**:
 
@@ -188,7 +211,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Graph Algorithms and Analytics (ALGO)
 
-**Count**: 16 concepts (8.0%)
+**Count**: 16 concepts (7.3%)
 
 **Concepts**:
 
@@ -211,7 +234,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Knowledge Graphs and Machine Learning (GML)
 
-**Count**: 16 concepts (8.0%)
+**Count**: 16 concepts (7.3%)
 
 **Concepts**:
 
@@ -234,7 +257,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Knowledge Graphs and LLMs (LLM)
 
-**Count**: 14 concepts (7.0%)
+**Count**: 14 concepts (6.4%)
 
 **Concepts**:
 
@@ -255,7 +278,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Cross-Industry Case Studies (CASE)
 
-**Count**: 12 concepts (6.0%)
+**Count**: 12 concepts (5.5%)
 
 **Concepts**:
 
@@ -272,28 +295,9 @@ All categories are under the 30% threshold. Good balance!
 - 177. Graph Visualization
 - 178. Financial Knowledge Graph
 
-### Legal and Enterprise Knowledge Graphs (LEGAL)
-
-**Count**: 12 concepts (6.0%)
-
-**Concepts**:
-
-- 179. Matter Graph
-- 180. Legal Document Graph
-- 181. Expertise Location
-- 182. Conflicts Checking
-- 183. Legal Entity Resolution
-- 184. Case Law Graph
-- 185. Contract Graph
-- 186. Client Relationship Graph
-- 187. Legal Taxonomy
-- 188. Precedent Relationship
-- 189. Regulatory Graph
-- 190. Outside Counsel Graph
-
 ### Governance and Maintenance (GOV)
 
-**Count**: 10 concepts (5.0%)
+**Count**: 10 concepts (4.6%)
 
 **Concepts**:
 
@@ -310,7 +314,7 @@ All categories are under the 30% threshold. Good balance!
 
 ## Recommendations
 
-- ✅ **Excellent balance**: Categories are evenly distributed (spread: 8.0%)
+- ✅ **Excellent balance**: Categories are evenly distributed (spread: 9.2%)
 - ✅ **MISC category minimal**: Good categorization specificity
 
 ### Educational Use Recommendations

@@ -38,8 +38,21 @@ nav:
 
   - Chapters:
       - List of Chapters: chapters/index.md
-      # Add chapter entries here as content is generated, e.g.:
-      # - 1. Introduction: chapters/01-introduction/index.md
+      - 1. Graph Fundamentals: chapters/01-graph-fundamentals/index.md
+      - 2. Data Storage Paradigms and Graph Variants: chapters/02-data-storage-paradigms/index.md
+      - 3. Taxonomies and Ontologies: chapters/03-taxonomies-and-ontologies/index.md
+      - 4. Graph Data Models: chapters/04-graph-data-models/index.md
+      - 5. Schema Design and Constraints: chapters/05-schema-design-constraints/index.md
+      - 6. Semantic Web Standards: chapters/06-semantic-web-standards/index.md
+      - 7. Building Knowledge Graphs from Data: chapters/07-building-knowledge-graphs/index.md
+      - 8. Querying Knowledge Graphs: chapters/08-querying-knowledge-graphs/index.md
+      - 9. Graph Algorithms and Analytics: chapters/09-graph-algorithms-analytics/index.md
+      - 10. Knowledge Graphs and Machine Learning: chapters/10-knowledge-graphs-machine-learning/index.md
+      - 11. Knowledge Graphs and Large Language Models: chapters/11-knowledge-graphs-llms/index.md
+      - 12. Cross-Industry Applications: chapters/12-cross-industry-applications/index.md
+      - 13. Litigation and Matter Knowledge Graphs: chapters/13-litigation-matter-graphs/index.md
+      - 14. Contracts, IP, and Legal Standards: chapters/14-contracts-ip-legal-standards/index.md
+      - 15. Governance and Maintenance: chapters/15-governance-and-maintenance/index.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md

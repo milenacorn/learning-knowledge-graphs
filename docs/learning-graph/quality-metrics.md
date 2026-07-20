@@ -2,12 +2,12 @@
 
 ## Overview
 
-- **Total Concepts**: 200
+- **Total Concepts**: 218
 - **Foundational Concepts** (no prerequisites, other concepts depend on them): 4
-- **Terminal Nodes** (nothing depends on them, but have prerequisites): 66
+- **Terminal Nodes** (nothing depends on them, but have prerequisites): 72
 - **Orphaned Nodes** (completely disconnected, no edges): 0
-- **Concepts with Dependencies**: 196
-- **Average Dependencies per Concept**: 1.53
+- **Concepts with Dependencies**: 214
+- **Average Dependencies per Concept**: 1.51
 
 ## Graph Structure Validation
 
@@ -52,7 +52,7 @@ These concepts have no prerequisites:
 
 Terminal nodes are concepts that nothing else depends on but have prerequisites. They represent natural endpoints of learning paths — culminating or specialized concepts.
 
-- **Total Terminal Nodes**: 66 (33.0% of all concepts)
+- **Total Terminal Nodes**: 72 (33.0% of all concepts)
 - **Healthy Range**: 5-40% of total concepts
 
 Concepts at the end of learning paths:
@@ -78,7 +78,7 @@ Concepts at the end of learning paths:
 - **106**: SELECT Query
 - **107**: CONSTRUCT Query
 
-*...and 46 more*
+*...and 52 more*
 
 ## Orphaned Nodes Analysis
 
@@ -103,12 +103,12 @@ Top 10 concepts that are prerequisites for the most other concepts:
 | 1 | 5 | Graph | 12 |
 | 2 | 53 | Knowledge Graph | 10 |
 | 3 | 43 | RDF Triple | 9 |
-| 4 | 69 | RDF | 8 |
-| 5 | 105 | SPARQL Query | 8 |
-| 6 | 15 | Graph Traversal | 7 |
-| 7 | 27 | Taxonomy | 7 |
-| 8 | 121 | Centrality | 7 |
-| 9 | 179 | Matter Graph | 7 |
+| 4 | 179 | Matter Graph | 9 |
+| 5 | 69 | RDF | 8 |
+| 6 | 105 | SPARQL Query | 8 |
+| 7 | 15 | Graph Traversal | 7 |
+| 8 | 27 | Taxonomy | 7 |
+| 9 | 121 | Centrality | 7 |
 | 10 | 11 | Entity | 6 |
 
 ## Outdegree Distribution
@@ -116,8 +116,8 @@ Top 10 concepts that are prerequisites for the most other concepts:
 | Dependencies | Number of Concepts |
 |--------------|--------------------|
 | 0 | 4 |
-| 1 | 123 |
-| 2 | 59 |
+| 1 | 135 |
+| 2 | 65 |
 | 3 | 9 |
 | 4 | 1 |
 | 5 | 1 |

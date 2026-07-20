@@ -75,7 +75,7 @@ into a single primary classifier.
 
 - A concept classifier taxonomy with 12 categories
 - Category organization - foundational elements first, course capstone project ideas last
-- Balanced categories (5% - 13% each)
+- Balanced categories (4.6% - 13.8% each)
 - All categories under 30% threshold
 - Pedagogical flow recommendations
 - Clear 3-5 letter abbreviations for use in CSV file
