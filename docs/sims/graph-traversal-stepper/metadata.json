@@ -1,0 +1,37 @@
+{
+  "title": "Step Through a Graph Traversal",
+  "description": "A step-through p5.js MicroSim where learners predict the next reachable node in a graph traversal by clicking an adjacent node, then confirm the move with the Next button.",
+  "creator": "Milena Higgins",
+  "date": "2026-07-19",
+  "version": "1.0",
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "subject": ["Knowledge Graphs", "Graph Theory"],
+  "topic": "Graph Traversal and Adjacency",
+  "gradeLevel": "Professional Development",
+  "learningObjectives": [
+    "Explain how graph traversal moves from node to node along edges",
+    "Predict the next reachable node before it is revealed",
+    "Identify which nodes are adjacent to a given node"
+  ],
+  "bloomsLevels": ["Understand"],
+  "duration": "5-10 minutes",
+  "prerequisites": ["Node", "Edge", "Adjacency"],
+  "framework": "p5.js",
+  "canvasDimensions": "700x470 (responsive width)",
+  "responsive": "Width-responsive",
+  "dependencies": ["p5.js CDN"],
+  "accessibility": "describe() accessibility text; high-contrast node states",
+  "controls": [
+    { "type": "button", "label": "Previous", "purpose": "Step back one confirmed move" },
+    { "type": "button", "label": "Next", "purpose": "Confirm the selected candidate node as the next step" },
+    { "type": "button", "label": "Reset", "purpose": "Return to the start node with an empty path" },
+    { "type": "click-target", "label": "Candidate node", "purpose": "Select a node adjacent to the current node as the predicted next step" }
+  ],
+  "modelType": "Discrete state-machine traversal (not physics/animation-based)",
+  "variables": ["path (confirmed node sequence)", "pendingCandidateId (selected but unconfirmed next node)"],
+  "assumptions": "Traversal only moves between adjacent nodes; revisiting a previously-visited node is allowed, matching real graph traversal.",
+  "limitations": "Demonstrates undirected adjacency only (any connected node is a valid next step); does not enforce edge direction as a traversal constraint."
+}

@@ -334,7 +334,7 @@ passing through every node along a connecting path.
 
 #### Diagram: Step Through a Graph Traversal
 
-<iframe src="../../sims/graph-traversal-stepper/main.html" width="100%" height="500px" scrolling="no"></iframe>
+<iframe src="../../sims/graph-traversal-stepper/main.html" width="100%" height="472px" scrolling="no"></iframe>
 
 <details markdown="1">
 <summary>Step Through a Graph Traversal</summary>
@@ -342,7 +342,7 @@ Type: microsim
 
 **sim-id:** graph-traversal-stepper<br/>
 **Library:** p5.js<br/>
-**Status:** Specified
+**Status:** Deployed
 
 Bloom Taxonomy Level: Understand (L2)<br/>
 Bloom Taxonomy Verb: explain, summarize

@@ -66,6 +66,7 @@ nav:
       - List of MicroSims: sims/index.md
       - Learning Graph Viewer: sims/graph-viewer/index.md
       - Graph Anatomy Explorer: sims/graph-anatomy-explorer/index.md
+      - Step Through a Graph Traversal: sims/graph-traversal-stepper/index.md
 
   - License: license.md
   - Contact: contact.md
